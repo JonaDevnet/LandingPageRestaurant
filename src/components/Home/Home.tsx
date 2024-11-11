@@ -1,8 +1,9 @@
 import React from "react";
-import BannerBackground from "../../Assets/home-banner-background.png"
-import BannerImage from "../../Assets/home-banner-image.png"
+import BannerBackground from "../../Assets/Imgs/home-banner-background.png"
+import BannerImage from "../../Assets/Imgs/home-banner-image.png"
 import { FiArrowRight } from "react-icons/fi"
 import { Navbar } from "./Navbar/Navbar";
+import './Home.css'
 
 export const Home: React.FC = () => {
     return (

@@ -1,7 +1,8 @@
 import React from "react";
-import AboutBackground from "../../Assets/about-background.png"
-import AboutBackgroundImage from "../../Assets/about-background-image.png"
+import AboutBackground from "../../Assets/Imgs/about-background.png"
+import AboutBackgroundImage from "../../Assets/Imgs/about-background-image.png"
 import { BsFillPlayCircleFill } from "react-icons/bs";
+import './About.css'
 
 export const About: React.FC = () => {
     return (
@@ -30,7 +31,7 @@ export const About: React.FC = () => {
                 <div className="about-buttons-container">
                     <button className="secondary-button">Learn More</button>
                     <button className="watch-video-button">
-                        <BsFillPlayCircleFill> Watch video</BsFillPlayCircleFill>
+                        <BsFillPlayCircleFill/> Watch video
                     </button>
                 </div>
             </div>
