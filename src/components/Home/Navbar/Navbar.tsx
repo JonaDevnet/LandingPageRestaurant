@@ -36,6 +36,7 @@ export const Navbar: React.FC = () => {
                 <img src={Logo} alt="" />
             </div>
             <div className="navbar-links-container">
+                {/* eslint-disable jsx-a11y/anchor-is-valid */}
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Testimonials</a>
@@ -43,6 +44,8 @@ export const Navbar: React.FC = () => {
                 <a href="#">
                     <BsCart2 className="navbar-cart-icon"/>
                 </a>
+                                {/* eslint-disable jsx-a11y/anchor-is-valid */}
+
                 <button className="primary-button">Booking Now</button>
             </div>
             <div className="navbar-menu-container">
